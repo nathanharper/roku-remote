@@ -13,6 +13,7 @@ KEYPRESS_MAP.update({
         10: 'select',
         32: '%20',
         96: 'home',
+        112: 'play',
         258: 'down',
         259: 'up',
         260: 'left',
@@ -76,6 +77,7 @@ def main():
         stdscr.addstr(2,0, 'arrow keys: move cursor')
         stdscr.addstr(3,0, 'enter: select')
         stdscr.addstr(4,0, 'tab: go back')
+        stdscr.addstr(5,0, 'p: play/pause')
         stdscr.refresh()
         
         key = ''
